@@ -6,14 +6,14 @@ TakeHomeChallenge.py is the file that contains the objects and functions associa
 Run_VCF_Annotation.py is a separate file that is designed to be executable by command line.
 
 How to use:
-python Run_VCF_Annotation.py Input_VCF_Directory Output_Directory Verbose numThreads
+```python Run_VCF_Annotation.py Input_VCF_Directory Output_Directory Verbose numThreads```
 
 Input_VCF_Directory: The directory of the VCF file to be annotated.
 Output_VCF_Directory: The directory of the annotated file (outputs as tab delimited file).
 Verbose (optional): Boolean, default False. When Verbose = True, all information in the original vcf file is retained in the annotation. When Verbose = False, only the chromosome, position, reference allele, alternative allele, and quality values are retained.
 numThreads (optional): Int, default 200. The number of threads permissible to open when retrieving information from the ExAC Project API.
 
-Information on program (also accessible by running python Run_VCF_Annotation.py help):
+Information on program (also accessible by running ```python Run_VCF_Annotation.py help```):
 
 
 
