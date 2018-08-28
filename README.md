@@ -23,9 +23,9 @@ Input: A directory to a vcf file (Input_VCF)
 Output: An annotated vcf written to a specified directory (Output_Filename)
 
 The vcf is annotated with the following information:
-1. Type of variation (Substitution, Insertion, Silent, Intergenic, etc.)  - represented by TYPE in vcf file's INFO column
-2. Depth of sequence coverage at the site of variation - represented by DP category in vcf file's INFO column
-3. Number of reads supporting the variant - represented by AO category in vcf file's INFO column
+1. Type of variation (Substitution, Insertion, Silent, Intergenic, etc.)  - already represented by TYPE in vcf file's INFO column
+2. Depth of sequence coverage at the site of variation - already represented by DP category in vcf file's INFO column
+3. Number of reads supporting the variant - already represented by AO category in vcf file's INFO column
 4. Percentage of reads supporting the variant versus those supporting reference reads - calculated with value 3 / value 2
 5. Allele frequency of variant from Broad Institute ExAC Project API (http://exac.hms.harvard.edu/)
 
