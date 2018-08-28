@@ -169,7 +169,7 @@ class VCF_Annotation():
                             if info == "AO" and NumberOfVariants > 1:
                                 Relevant_Info = [Relevant_Info[0].split(",")[j]]
                             Retained_SNP_Information += Relevant_Info
-                        Retained_SNP_Information += [str(float(Retained_SNP_Information[-1]) / float(Retained_SNP_Information[-2]))]
+                        Retained_SNP_Information += [str(100.0 * float(Retained_SNP_Information[-1]) / float(Retained_SNP_Information[-2]))]
                         self.TextBody += [Retained_SNP_Information]
                         
     def Finalize_VCF(self, Output_Filename, Verbose = False, numThreads = 200):
