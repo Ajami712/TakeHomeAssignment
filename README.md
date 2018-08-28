@@ -1,9 +1,11 @@
 # TakeHomeAssignment
 
-This is the take home assignment for the Tempus Bioinformatics Technical Challenge. Coded in Python 2.7.
+This is the take home assignment for the Tempus Bioinformatics Technical Challenge. Coded in Python 2.7 using the Anaconda distribution.
 
 TakeHomeChallenge.py is the file that contains the objects and functions associated with building the annotation.
 Run_VCF_Annotation.py is a separate file that is designed to be executable by command line.
+
+Dependencies: Uses the python packages pandas and requests. All other packages are part of the Python Standard Library.
 
 How to use:
 ```python Run_VCF_Annotation.py Input_VCF_Directory Output_Directory Verbose numThreads```
