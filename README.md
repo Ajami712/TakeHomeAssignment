@@ -16,9 +16,8 @@ numThreads (optional): Int, default 200. The number of threads permissible to op
 Information on program (also accessible by running python Run_VCF_Annotation.py help):
 
 
-#=======================================
-VCF_Annotation
-#=======================================
+
+## VCF_Annotation
 
 Input: A directory to a vcf file (Input_VCF)
 Output: An annotated vcf written to a specified directory (Output_Filename)
@@ -46,9 +45,8 @@ define associations between TextBody and information mined from the ExAC API.
 Variants that have more than one alternative allele are decomposed to multiple lines.
 According to http://samtools.github.io/hts-specs/VCFv4.1.pdf, "it is permitted to have multiple records with the same POS."
 
-#=======================================
-Important Functions within VCF_Annotation:
-#=======================================
+
+## Important Functions within VCF_Annotation:
 
 Run_Full_Annotation(Input_VCF, Output_Filename, Verbose = False, numThreads = 200):
 Runs the full annotation pipeline by running Parse_VCF and Finalize_VCF.
